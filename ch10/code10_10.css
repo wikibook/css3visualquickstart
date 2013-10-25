@@ -1,0 +1,64 @@
+/*** CSS3 VQS | Chapter 10 | box-properties.css ***/
+
+body, header.page, footer.page  {
+	margin: 0; }
+
+nav.global {
+	display: block; }
+
+nav.global li {
+	display: inline;
+	margin-right: 10px; }
+
+article {
+	max-width: 980px;
+	min-width: 660px;
+	float: left;
+	margin: 0 10px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-right-radius: 20px; }
+
+figure {
+	display: block;
+	width: 300px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 6px double rgb(142, 137, 129);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; }
+
+figcaption {
+	display:block;
+	padding: 10px;
+	border-top: 2px solid rgb(142, 137, 129); }
+
+aside {
+	display: block;
+	width: 200px;
+	height: 400px;
+	overflow: auto;
+	float: right;
+	margin: 0 10px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius: 20px 0 0 20px;
+	border-radius: 20px 0 0 20px; }
+
+footer {
+	width: 100%;
+	clear: both; }
+
+h1 {
+	margin: 0 20px 10px 10%; }
+
+aside h3 {
+	border: 1em double rgb(142, 137, 129); }
+
+article nav h2 {
+	border-top: none; }
+
+.byline {
+	
+	margin: 0 10% 10px 20%; }

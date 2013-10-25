@@ -1,0 +1,34 @@
+/*** CSS3 VQS | Chapter 7 | color-background-properties.css ***/
+
+body {
+	color: rgb(51,51,51); }
+
+h1 {
+	color: rgb(102,0,0);
+	color: rgba(102,0,0,.65); }
+
+article h2 strong {
+	color: rgb(135,127,107); }
+
+article header + p:first-letter {
+	color: rgb(153,0,0); }
+
+a:link {
+	color: rgb(204,0,0) }
+
+a:visited {
+	color: rgb(153,0,0) }
+
+a:hover {
+	color: rgb(255,0,0) }
+
+a:active {
+	color: rgb(153,153,153) }
+
+.byline {
+	color: rgb(255,255,255);
+	color: rgba(255,255,255,.5); }
+
+.byline .author { 
+	color: rgb(235,235,235);
+	color: rgba(255,255,255,.75)  }

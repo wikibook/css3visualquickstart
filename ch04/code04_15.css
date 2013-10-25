@@ -1,0 +1,11 @@
+/*** For Print ***/
+
+body { 
+	background: white url('../_images/AAIW-illos/alice23a.gif') no-repeat 0 0;
+	padding: 200px 0 0 175px;
+	 }
+h1 { 
+	color: black; }
+p {
+	font: normal 12pt/2 Constantia, palatino, times, "times new roman", serif;
+	color: rgb(0,0,0); }

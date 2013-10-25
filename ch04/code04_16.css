@@ -1,0 +1,11 @@
+/*** iPhone Styles ***/
+
+body { 
+ 	-webkit-text-size-adjust:none;
+	background: rgb(102,102,102) url('../_images/AAIW-illos/alice23c.gif') no-repeat center 0;
+	padding: 120px 20px 20px 20px; }
+h1 { color: rgb(153,125,125);
+	text-shadow: 0 0 5px rgb(0,0,0); }
+p {
+	font: normal 1em/1.25em "helvetica neue", Helvetica, Arial, Sans-serif;
+	color: rgb(255,255,255);	}

@@ -1,0 +1,34 @@
+/*** CSS3 VQS | Chapter 6 | text-properties.css ***/
+
+body {
+	line-height: 1.5; }
+
+h1 {
+	letter-spacing: -.05em;
+	word-spacing: -.1em;
+	line-height: .9em; }
+
+h2 {
+	letter-spacing: 2px;
+	word-spacing: 3px; }
+
+h2 strong {
+	letter-spacing: 0; }
+
+p {
+	word-spacing: .075em;
+	line-height: 24px; }
+
+header + p:first-letter {
+	letter-spacing: -.05em;
+	line-height: 24px; }
+
+.byline {
+	word-spacing: -.3em; }
+
+.byline .author {
+	word-spacing: 0;
+	text-transform: uppercase; }
+
+.asis {
+	text-transform: uppercase; }

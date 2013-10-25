@@ -1,0 +1,60 @@
+/*** CSS3 VQS | Chapter 11 | visualformatting-properties.css ***/
+
+header nav {
+	visibility: hidden; }
+
+article {
+	-webkit-box-shadow: rgba(0,0,0,.7) 5px 5px 15px;
+	-moz-box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+	box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+ }
+
+aside {
+	position: absolute;
+	right: 1%;
+	top: 120px;
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,.25) inset, 3px 3px 15px rgba(0,0,0,.5);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,.25) inset, 3px 3px 15px rgba(0,0,0,.5);
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,.25) inset, 3px 3px 15px rgba(0,0,0,.5); }
+
+strong {
+	position: relative;
+	top: -.15em; }
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99; }
+
+footer ul {
+	position: relative;
+	top: 10px; }
+
+figure {
+	-webkit-box-shadow: rgba(0,0,0,.7) 5px 5px 10px;
+	-moz-box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+	box-shadow: 5px 5px 10px rgba(0,0,0,.7); }
+
+div.gallery {
+	position: relative; }
+
+div.gallery figure {
+	position: absolute;
+	clip: rect(50px 250px 250px 50px);
+	filter: alpha(opacity=0.75);
+	opacity: .5; }
+
+div.gallery figure.f1 {
+	left: 0;
+	top: 0;
+	z-index: 3; }
+div.gallery figure.f2 {
+	left: 150px;
+	top:50px;
+	z-index: 2; }
+
+div.gallery figure.f3 {
+	left: 300px;
+	top: 100px;
+	z-index: 1; }

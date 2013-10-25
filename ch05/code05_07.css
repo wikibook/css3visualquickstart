@@ -1,0 +1,50 @@
+/*** CSS VQS - Chapter 5 - fontproperties.css ***/
+
+@font-face {
+	font-family: 'Title Font';
+	src: url('../_fonts/Little-Trouble-Girl/littletroublegirl-webfont.eot');
+	src: local('☺'), url('../_fonts/Little-Trouble-Girl/littletroublegirl-webfont.woff') format('woff'), url('../_fonts/Little-Trouble-Girl/littletroublegirl-webfont.ttf') format('truetype'), url('../_fonts/Little-Trouble-Girl/littletroublegirl-webfont.svg#webfont') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-variant: normal; }
+
+body {
+	font-family: Corbel, Helvetica, Arial, Sans-serif;
+	font-size: 100%;
+	font-size-adjust: .5; }
+
+h1, h2, h3, h4, h5, h6, .byline {
+	font-family: Constantia, Georgia, Times, "Times New Roman", Serif;
+	font-size-adjust: .46; }
+
+h1 {
+	font-family: 'Title Font', Constantia, Georgia, Times, "Times New Roman", Serif;
+	font-size: 3em;
+	font-style: italic;
+	font-weight: bold; }
+
+h2 {
+	font-size: 2em;
+	font-style: normal;
+	font-weight: lighter; }
+
+h2 strong {	
+	font-size: .5em;
+	font-style: italic; }
+
+
+p {
+	font-size: .875em; }
+
+strong {
+	font-size: 1.25em;
+	font-weight: normal; }
+
+.byline {
+	font-size: 1em;
+	font-style: italic; }
+
+.byline .author {
+	font-size: 1.25em;
+	font-style: normal;
+	font-weight: bold; }

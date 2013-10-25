@@ -1,0 +1,32 @@
+/*** CSS3 VQS | Chapter 12 | transformation-transition-properties.css ***/
+
+aside {
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	transform: rotate(-2deg); }
+
+div.gallery figure {
+	width: auto;
+	-webkit-transform-origin: left 25%;
+	-moz-transform-origin: left 25%;
+	-o-transform-origin: left 25%;
+	transform-origin: left 25%; }
+
+#f1 {
+	-webkit-transform: scale(.75) rotate(10deg);
+	-moz-transform: scale(.75) rotate(10deg);
+	-o-transform: scale(.75) rotate(10deg);
+	transform: scale(.75) rotate(10deg); }
+
+#f2 {
+	-webkit-transform: scale(.75) rotate(-8deg);
+	-moz-transform: scale(.75) rotate(-8deg);
+	-o-transform: scale(.75) rotate(-8deg);
+	transform: scale(.75) rotate(-8deg); }
+
+#f3 {
+	-webkit-transform: scale(.75)rotate(3deg);
+	-moz-transform: scale(.75)rotate(3deg);
+	-o-transform: scale(.75) rotate(3deg);
+	transform: scale(.75) rotate(3deg); }

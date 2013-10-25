@@ -1,0 +1,8 @@
+/*** CSS3 VQS | Chapter 8 | list-table-properties.css ***/
+
+ul {
+	list-style: circle url(../_images/bullet-01.png) inside; }
+
+nav.global ul  {
+	list-style: none; }
+

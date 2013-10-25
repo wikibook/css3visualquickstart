@@ -1,0 +1,8 @@
+/*** CSS3 VQS | Chapter 8 | list-table-properties.css ***/
+
+ul {
+	list-style-type: circle; }
+	
+nav.global ul  {
+	list-style: none; }
+

@@ -1,0 +1,12 @@
+/*** CSS3 VQS | Chapter 3 | cssbasics-01.css ***/
+
+body { 
+	background: white url(../_images/AAIW-illos/alice23a.gif) no-repeat 0 0;
+	padding: 200px 0 0 175px; }
+h1 { 
+	color: black; }
+h2 { 
+	color: gray; }
+p {
+	font: normal 100%/1.5 Corbel, Helvetica, Arial, Sans-serif;
+	color: red;	}

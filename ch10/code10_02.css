@@ -1,0 +1,16 @@
+/*** CSS3 VQS | Chapter 10 | box-properties.css ***/
+
+nav.global {
+	display: block; }
+
+nav.global li {
+	display: inline; }
+
+figure {
+	display: block; }
+
+figcaption {
+	display:block; }
+
+aside {
+	display: block; }

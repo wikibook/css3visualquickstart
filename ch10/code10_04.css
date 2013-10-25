@@ -1,0 +1,27 @@
+/*** CSS3 VQS | Chapter 10 | box-properties.css ***/
+
+nav.global {
+	display: block; }
+
+nav.global li {
+	display: inline; }
+
+article {
+	max-width: 980px;
+	min-width: 660px; }
+
+figure {
+	display: block;
+	width: 300px; }
+
+figcaption {
+	display:block; }
+
+aside {
+	display: block;
+	width: 200px;
+	height: 400px;
+	overflow: auto; }
+	
+footer {
+	width: 100%; }

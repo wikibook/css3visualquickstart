@@ -1,0 +1,14 @@
+/*** Default Styles ***/
+
+body { 
+	background: black url('../_images/AAIW-illos/alice23b.gif') no-repeat 0 0;
+	margin: 0 0;
+	padding: 200px 0 0 175px; }
+h1 { 
+	color: white;
+	font-style: italic; }
+h2 { 
+	color: rgb(153,153,153); }
+p {
+	font: normal 100%/1.5 Corbel, Helvetica, Arial, Sans-serif;
+	color: rgb(204,204,204);	}

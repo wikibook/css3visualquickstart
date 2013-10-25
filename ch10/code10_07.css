@@ -1,0 +1,46 @@
+/*** CSS3 VQS | Chapter 10 | box-properties.css ***/
+
+body, header.page, footer.page  {
+	margin: 0; }
+
+nav.global {
+	display: block;
+	margin-left: 10px; }
+
+nav.global li {
+	display: inline;
+	margin-right: 10px; }
+
+article {
+	max-width: 980px;
+	min-width: 660px;
+	float: left;
+	margin: 0 10px; }
+
+figure {
+	display: block;
+	width: 300px;
+	float: left;
+	margin: 0 10px 10px 0; }
+
+figcaption {
+	display:block; }
+
+aside {
+	display: block;
+	width: 200px;
+	height: 400px;
+	overflow: auto;
+	float: right;
+	margin: 0 10px; }
+
+footer {
+	width: 100%;
+	clear: both; }
+
+h1 {
+	margin: 0 20px 10px 10%; }
+
+.byline {
+	
+	margin: 0 10% 10px 20%; }

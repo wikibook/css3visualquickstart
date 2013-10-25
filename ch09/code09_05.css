@@ -1,0 +1,24 @@
+/*** CSS3 VQS | Chapter 9 | ui-generatedcontent-properties.css ***/
+
+* {
+	quotes: '«' '»' '‹ ' ' ›'; }
+
+.toc { margin: 0 auto; width: 90%; text-align: center; font-size: .5em;}
+
+a {
+	cursor: help; }
+
+h1 {
+	cursor: url(../_images/cursor-02.png) 20 20, crosshair; }
+
+.top {
+	counter-reset: chapterNum 0; }
+
+.toc h2:before {
+	content:  url('../_images/bullet-01.png') 'Chapter ' counter(chapterNum) '. ';
+	counter-increment: chapterNum; }
+.toc h2:after {
+	content: url('../_images/bullet-02.png'); }
+	
+#chapter4 .continued {
+	counter-reset: chapterNum 4; }

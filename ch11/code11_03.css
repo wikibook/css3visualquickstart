@@ -1,0 +1,36 @@
+/*** CSS3 VQS | Chapter 11 | visualformatting-properties.css ***/
+
+aside {
+	position: absolute;
+	right: 1%;
+	top: 120px; }
+
+strong {
+	position: relative;
+	top: -.15em; }
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0; }
+
+footer ul {
+	position: relative;
+	top: 10px; }
+
+div.gallery {
+	position: relative; }
+
+div.gallery figure {
+	position: absolute; }
+
+div.gallery figure.f1 {
+	left: 0;
+	top: 0; }
+div.gallery figure.f2 {
+	left: 150px;
+	top:50px; }
+
+div.gallery figure.f3 {
+	left: 300px;
+	top: 100px; }

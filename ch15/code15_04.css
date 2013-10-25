@@ -1,0 +1,7 @@
+article {…}
+article .intro {…}
+article .intro figure {…}
+article .intro figure figcaption {…}
+article .intro p {…}
+article .intro p em {…}
+article .intro p:firstline {…}

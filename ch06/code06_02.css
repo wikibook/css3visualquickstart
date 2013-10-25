@@ -1,0 +1,14 @@
+/*** CSS3 VQS | Chapter 6 | text-properties.css ***/
+
+
+h1 {
+	letter-spacing: -.05em; }
+
+h2 {
+	letter-spacing: 2px; }
+
+h2 strong {
+	letter-spacing: 0; }
+
+header + p:first-letter {
+	letter-spacing: -.05em; }
